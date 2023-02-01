@@ -1,13 +1,11 @@
-const a = 5;
-const b = 6;
-let myName = "nico";
+const calculator = {
+    plus: function(a,b){
+        return a+b;
+    },
+    minus: function(a,b){
+        return a-b;
+    }
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b);
-console.log("hi " + myName);
-
-myName = "nicolas"
-
-console.log("Your new name is " + myName);
-
+}
+const plusResult = calculator.plus(2,3);
+const minusResul = calculator.minus(plusResult, 30);
