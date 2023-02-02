@@ -1,11 +1,4 @@
-const calculator = {
-    plus: function(a,b){
-        return a+b;
-    },
-    minus: function(a,b){
-        return a-b;
-    }
+const age = parseInt(prompt("How old are you?"));
 
-}
-const plusResult = calculator.plus(2,3);
-const minusResul = calculator.minus(plusResult, 30);
+console.log(age);
+
