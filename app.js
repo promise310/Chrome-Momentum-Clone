@@ -21,10 +21,20 @@ function handleWindowResize(){
 function hadleWindowCopy(){
     alert("Copier!");
 }
+
+function handleWindowOffline(){
+    alert("SOS no Wifi!");
+}
+
+function hadleWindowOnline(){
+    alert("Wifi connected!");
+}
 h1.addEventListener("click", handleTitleClick);
 h1.addEventListener("mouseenter", handleMouseEnter);
 h1.addEventListener("mouseleave", handleMouseLeave);
 
 window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", hadleWindowCopy);
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", hadleWindowOnline);
 
