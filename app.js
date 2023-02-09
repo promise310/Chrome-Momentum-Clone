@@ -1,4 +1,4 @@
-//querySelector -> call html id
+//querySelector -> call id from html
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
@@ -11,6 +11,9 @@ function onLoginSubmit(event) {
     const userName = loginInput.value;
     //Combinig Strings
     //greeting.innerText = "Hello " + userName;
+
+    //saving username to local storage
+    localStorage.setItem("username", userName);
     greeting.innerText = `Hello ${userName}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
     
