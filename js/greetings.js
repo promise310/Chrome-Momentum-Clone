@@ -23,7 +23,7 @@ function onLoginSubmit(event) {
 function paintGreetings(userName){
     //Combinig Strings
     //greeting.innerText = "Hello " + userName;
-    greeting.innerText = `Hello ${userName}`;
+    greeting.innerText = `Hello, ${userName}`;
     //remove the hidden class name title from the greeting title
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }

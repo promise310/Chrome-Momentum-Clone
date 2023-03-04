@@ -1,8 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    display: grid;
-    justify-items: center;
+    text-align: center;
     color: white;
 }
 
@@ -21,4 +20,32 @@ img {
     opacity: 0.8;
   }
 
-  
+#weather {
+    text-align: right;
+}
+
+#clock {
+    font-size: 120px;
+}
+ 
+#login-form {
+    
+}
+
+#greeting {
+    
+}
+
+#todo-form{
+    
+}
+
+#todo-list{
+    
+}
+
+#quote {
+    text-align: left;
+    position:absolute; 
+    bottom:0px;
+}
