@@ -1,6 +1,4 @@
 * {
-    margin: 0 auto;
-    padding: 0;
     text-align: center;
     color: white;
 }
@@ -28,20 +26,21 @@ img {
   }
 
 #weather {
-    text-align: right;
+    display: grid;
+    place-content: end;
 }
+
 
 #clock {
     font-size: 120px;
-
-    height:260px;
-    margin:10px;
+    height:auto;
+    margin:90px;
     color:white;    
-    padding:-100px;
+    
 }
  
 #login-form{
-    margin:0 auto;
+    margin: 30px;
 }
 #login-form input:first-child{
     font-size: 1.3rem;
@@ -67,7 +66,7 @@ img {
     border:none;
     background-color:rgba(255,255,255,0.6);
     color: rgb(80,80,80);
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 600;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
     outline: none;
@@ -77,21 +76,19 @@ img {
 
 
 #greeting{
-    margin: 0 auto;
-    font-weight: 400;
-    font-size:2rem;
-    font-weight: 600;
+    margin: 30px;
+    font-size:3rem;
 }
 
 
 #todo-form input{
-    font-size:1rem;
+    font-size:1.3rem;
     width: 540px;
     height:40px;
     background-color: rgba(255,255,255,0.1);
     font-weight: 500;
     border:none;
-    margin-bottom:20px;
+
     margin-top:-50px;
     transition: all, 0.4s;
 }
