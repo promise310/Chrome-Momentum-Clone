@@ -28,6 +28,18 @@ function paintTodo(newTodo){
     //change the text of the button
     button.innerText = "X";
     button.addEventListener("click", deleteTodo);
+
+    
+    li.addEventListener("click", () => {
+        li.style.textDecoration = "line-through solid gray";
+
+        if(li.style.textDecoration = "line-through solid gray"){
+            li.addEventListener("click", () => {
+                li.style.textDecoration = "none";
+            });
+        }
+    });
+
     //add the span to the li
     li.appendChild(span);
     //add the button to the li
